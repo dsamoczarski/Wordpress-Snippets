@@ -1,4 +1,6 @@
 <?php 
+    // muss in der functions.php hinterlegt werden
+    
     // 700px breites Thumbnail. 
     add_image_size( 'large', 700, '', true ); 
     // 250px breites Thumbnail.

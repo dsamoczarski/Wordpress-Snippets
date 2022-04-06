@@ -1,6 +1,6 @@
 <?php
+// muss in der functions.php hinterlegt werden
 
-// Hinterlegen in der functions.php
 function breadcrumb($currentid)
 {
     echo ' <ol id="breadcrumb_dsa" itemscope itemtype="https://schema.org/BreadcrumbList">' . "\n";

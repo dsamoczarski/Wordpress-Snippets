@@ -1,4 +1,6 @@
 <?php 
+    // muss in der functions.php hinterlegt werden
+
     // aktiviert allgemein Post-Thumbnails
     add_theme_support( 'post-thumbnails' ); 
     // aktiviert Post-Thumbnails nur für Beiträge / Posts
