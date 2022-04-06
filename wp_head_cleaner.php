@@ -12,6 +12,7 @@ remove_action('wp_head', 'feed_links_extra', 3);
 remove_action('wp_head', 'feed_links', 2);
 remove_action('wp_head', 'wc_products_rss_feed');
 
+// Nur, wenn du den Block-Editor nicht verwendest
 function smartwp_remove_wp_block_library_css(){
     wp_dequeue_style( 'wp-block-library' );
     wp_dequeue_style( 'wp-block-library-theme' );
