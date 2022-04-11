@@ -10,3 +10,9 @@ the_post_thumbnail( 'customsizename' );     // Thumbnailgröße, die zuvor in de
 
 // Abrufen und zwischenspeichern der Thumbnaildaten
 $image_data = get_the_post_thumbnail( get_the_id(), 'thumbnail' );
+
+// Abrufen der URL des Bildes, um es zum Beispiel als Hintergrund zu verwenden
+$image_data = get_the_post_thumbnail_url(get_the_ID(),'full'); 
+//                                            ^         ^  
+//                                            |         |
+//                                  Aktueller Post     Die gewünschte Bildgröße - siehe oben
